@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding:30px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.section-one{
+    background-color: black;
+    color:white;
+    padding: 20px;
+}
+.section-one__title{
+   padding-left: 700px;
+}
+
+.section-one__navbar li{
+    display:inline-block;
+}
+
+.section-one__navbar{
+    padding-left: 670px;
+}
+
+.content{
+    padding:10px;
+}
+
+.section-two{
+    border:solid black 1px;
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    vertical-align: top;
+    margin-left: 250px;
+}
+.section-three,.section-four,.section-five{
+    border:solid black 1px;
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    vertical-align: top;
+}
+
+.section-two__title,.section-three__title,.section-four__title,.section-five__title{
+    font-size: 17px;
+    text-align: center;
+}
+.section-two__description,.section-three__description,.section-four__description,.section-five__description{
+    font-size: 13px;
+    text-align: center;
+}
+.section-one__button,.section-two__button,.section-three__button,.section-four__button,.section-five__button{
+   
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.section-six{
+    background-color: black;
+    color:white;
+    padding:10px;
+    margin-top: 10px;
+}
+
+.section-six__button{
+    background-color: yellowgreen;
+    margin-left: 500px; 
+    padding-right:200px;
+    padding-left: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.section-six__title{
+    text-align: center;
+}
+.section-six__input{
+    padding-left: 600px;
+}
